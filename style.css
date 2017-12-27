@@ -1,0 +1,75 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url(Desert.jpg);
+	background-size: cover;
+	font-family: sans-serif;
+}
+.kotaklogin{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 350px;
+	height: 450px;
+	padding: 80px 40px;
+	box-sizing: border-box;;
+	background: rgba(0,0,0,.5);
+	border-radius: 20px;
+}
+
+
+h2{
+	margin: 0;
+	padding: 0 0 20px;
+	color: blue;
+	text-align: center;
+}
+.kotaklogin p {
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	color: #fff;
+}
+.kotaklogin input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.kotaklogin input[type="text"],
+.kotaklogin input[type="password"]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	/*color: #fff;*/
+	font-size: 16px;
+}
+::placeholder
+{
+	color: rgba(225,225,225,.5);
+}
+.kotaklogin input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	color: #fff
+	font-size: 16px;
+	background: blue;
+	cursor: pointer;
+	border-radius: 20px;
+}
+.kotaklogin input[type="submit"]:hover
+{
+	background: red;
+	color: #262626;
+}
+.kotaklogin a
+{
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+}

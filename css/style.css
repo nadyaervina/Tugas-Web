@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+.atas>img{
+	width: 100%;
+	height: 100%;
+}
+.kedua{
+	background-color: #c40919;
+	box-shadow: 7px 7px 10px;
+	margin: 30px;
+}
+.das{
+	background-color: #2746e5;
+}
+.lacak
+{
+	border-radius: 5px;
+	width: 250px;
+	height: 40px;
+}
+.lacak1{
+	border-radius: 5px;
+	width: 150px;
+	height: 40px;
+}
+.lacak2{
+	border-radius: 5px;
+	width: 50px;
+	height: 40px;
+}
+.lacak3{
+	border-radius: 5px;
+	width: 200px;
+	height: 40px;
+}
+.a{
+	padding: 1% 0 2% 0;
+	border-right: 2px solid;
+	border-right-style: ridge;
+}
+.b{
+	padding: 1% 0 2% 1%;
+	border-right: 2px solid;
+	border-right-style: ridge;
+}
+.c{
+	padding: 1% 0 2% 1%;
+}
+.gambar{
+	width: 100%;
+	height: 300px;
+	position: relative;
+	margin: 0 auto;
+}
+.gambar>img{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+.gambar>.btn{
+	position: absolute;
+	top: 100px;
+	width: 50px;
+	height: 50px;
+	border: none;
+	border-radius: 10px;
+}
+.gambar>#btn2{
+	position: relative;
+	float: right;
+}
+.logo>.as>img{
+	width: 160px;
+	height: 60px;
+	margin: 8px;
+}
+.footer{
+	background: #c40919;
+	width: 100%;
+	height: 320px;
+	top: 5px;
+	color: white;
+	font-weight: bold;
+	display: block;
+}
+.tbl>.btn{
+	width: 160px;
+	height: 60px;
+	margin: 8px;
+}
+.footer>a{
+	color: black;
+	font-weight: bold;
+	display: block;
+}
+
+body {
+
+	font-family: 'Bree Serif', serif;
+	color : black;
+}
+a{
+	color : black;
+}

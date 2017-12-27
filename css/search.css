@@ -1,0 +1,59 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url(jellyfish.jpg);
+	background-size: cover;
+	font-family: sans-serif;
+}
+.body{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 300px;
+	height: 300px;
+	padding: 80px 40px;
+	box-sizing: border-box;;
+	background: rgba(0,0,0,.5);
+	border-radius: 20px;
+}
+h2{
+	margin: 0;
+	padding: 0 0 10px;
+	color: blue;
+	text-align: center;
+}
+.body input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.body input[type="search"]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	/*color: #fff;*/
+	font-size: 16px;
+}
+::placeholder
+{
+	color: rgba(225,225,225,.5);
+}
+.body input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	color: #fff
+	font-size: 16px;
+	background: blue;
+	cursor: pointer;
+	border-radius: 20px;
+}
+.kelas
+{
+	border-radius: 5px;
+	height: 25px;
+}

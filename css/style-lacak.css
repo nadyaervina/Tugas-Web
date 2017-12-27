@@ -1,0 +1,23 @@
+.atas>img{
+	width: 100%;
+	height: 100%;
+}
+.lacak
+{
+	border-radius: 5px;
+	width: 700px;
+	height: 150px;
+	text-align: left;
+}
+
+.gambar{
+	width: 100%;
+	height: 300px;
+	position: relative;
+	margin: 0 auto;
+}
+.gambar>img{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
